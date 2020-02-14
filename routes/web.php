@@ -29,7 +29,7 @@ Route::group(['middleware' => 'administrator'], function () {
     Route::resource('serials', 'SerialController');
     Route::resource('seasons', 'SeasonController');
     Route::resource('seriyas', 'SeriyaController');
-    Route::resource('categories', 'CategoryController');
+    
     Route::resource('roles', 'RoleController');
 });
 
